@@ -47,7 +47,8 @@
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-syntax-highlighter": "^15.5.0",
-    "react-visibility-sensor": "^5.1.1"
+    "react-visibility-sensor": "^5.1.1",
+    "theme": "^0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
