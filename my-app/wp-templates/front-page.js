@@ -2,17 +2,17 @@ import * as MENUS from 'constants/menus';
 
 import { useQuery, gql } from '@apollo/client';
 
-import AaronHero from '/components/AaronHero/AaronHero.js';
-import AaronServicesHome from '/components/AaronServicesHome/AaronServicesHome.js';
-import AaronStepper from '/components/AaronStepper/AaronStepper.js';
-import AaronFooter from '/components/AaronFooter/AaronFooter.js';
+import AaronHero from 'my-app/components/AaronHero/AaronHero.js';
+import AaronServicesHome from 'my-app/components/AaronServicesHome/AaronServicesHome.js';
+import AaronStepper from 'my-app/components/AaronStepper/AaronStepper.js';
+import AaronFooter from 'my-app/components/AaronFooter/AaronFooter.js';
 
 import {
     NavigationMenu,
     SEO,
     Posts,
     Testimonials, AppBar,
-} from 'components';
+} from 'my-app/components';
 import { BlogInfoFragment } from 'fragments/GeneralSettings';
 
 const postsPerPage = 3;
